@@ -17,8 +17,11 @@ Outputs: The 3×3 camera intrinsic matrix, the rotation and translation of each 
 
 # Steps of work
 1)Define real world coordinates of 3D points using checkerboard pattern of known size. 
+
 2)Capture the images of the checkerboard from different viewpoints. 
+
 3)Use findChessboardCorners method in OpenCV to find the pixel coordinates (u, v) for each 3D point in different images 
+
 4)Find camera parameters using calibrateCamera method in OpenCV, the 3D points, and the pixel coordinates. 
 
 
