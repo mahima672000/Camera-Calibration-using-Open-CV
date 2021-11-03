@@ -36,3 +36,12 @@ We are using Calibration pattern . We will perform calibration by capturing seve
 
 # Future Applications
 This model can be applied to any vision sensors.
+
+# References
+[1] https://nikatsanka.github.io/camera-calibration-using-opencv-and-python.html
+
+[2] https://learnopencv.com/camera-calibration-using-opencv/
+
+[3] https://learnopencv.com/understanding-lens-distortion/
+
+[4] https://github.com/spmallick/learnopencv/tree/master/UnderstandingLensDistortion
